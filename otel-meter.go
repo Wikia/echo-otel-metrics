@@ -169,7 +169,7 @@ func New(config MiddlewareConfig) *Metrics {
 		// the result name is `requests_total`
 		// https://github.com/open-telemetry/opentelemetry-go/blob/46f2ce5ca6adaa264c37cdbba251c9184a06ed7f/exporters/prometheus/exporter.go#L74
 		// the exporter will enforce the `_total` suffix for counter, so we do not need it here
-		"requests",
+		"http.requests",
 		// see https://github.com/open-telemetry/opentelemetry-go/pull/3776
 		// The go.opentelemetry.io/otel/metric/unit package is deprecated. Setup the equivalent unit string instead. (#3776)
 		// Setup "1" instead of unit.Dimensionless
