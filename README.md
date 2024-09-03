@@ -1,6 +1,6 @@
 # echo-otel-metrics
 
-this is an opentelemetry metrics middleware for echo http framework.
+This is an opentelemetry metrics middleware for echo http framework.
 
 it addd a custom opentelemetry metrics middleware `otelmetric` to echo framework, and setup a prometheus exporter endpoint at `/metrics`.
 
