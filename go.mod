@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/prometheus/client_golang v1.20.2
-	github.com/prometheus/common v0.58.0
+	github.com/prometheus/common v0.59.1
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/otel v1.29.0
 	go.opentelemetry.io/otel/exporters/prometheus v0.50.0
